@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Doctor Care</string>
+    <string name="title_activity_doctor__signin">Doctor_Signin</string>
+</resources>

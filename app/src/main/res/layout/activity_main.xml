@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#081738"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Welcome To Skin Care"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_doc"
+            android:layout_width="338dp"
+            android:layout_height="45dp"
+            android:background="@android:color/white"
+            android:text="I Am Doctor "
+            android:textColor="#081738"
+            android:textSize="20dp"
+            />
+        <Button
+            android:id="@+id/btn_pat"
+            android:layout_width="338dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:background="@android:color/white"
+            android:text="I Am Patient "
+            android:textColor="#081738"
+             />
+    </LinearLayout>
+
+</LinearLayout>

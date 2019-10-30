@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#081738"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    tools:context=".Patient_Signup">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/white_doc" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="342dp"
+            android:backgroundTint="#fff"
+            android:foregroundTint="#fff"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Name:"
+            android:textColor="@android:color/white"
+            android:inputType="textPersonName"
+            android:shadowColor="@android:color/transparent"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:layout_width="342dp"
+            android:backgroundTint="#fff"
+            android:foregroundTint="#fff"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Email:"
+            android:inputType="textEmailAddress"
+            android:shadowColor="@android:color/transparent"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+            android:id="@+id/edt_phone_no"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#fff"
+            android:foregroundTint="#fff"
+            android:layout_gravity="center"
+            android:hint="Phone No:"
+            android:inputType="phone"
+            android:shadowColor="@android:color/transparent"
+            android:textColorHint="@android:color/white" />
+
+        <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/simplePassword"
+            android:layout_gravity="center"
+            android:hint="Password"
+            android:backgroundTint="#fff"
+            android:foregroundTint="#fff"
+            android:textColor="#fff"
+            app:tint_color="#fff"
+            android:textColorHint="@android:color/white"
+            />
+        <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/RetypePassword"
+            android:layout_gravity="center"
+            android:hint="Retype Password"
+            android:backgroundTint="#fff"
+            android:foregroundTint="#fff"
+            android:textColor="#fff"
+            app:tint_color="#fff"
+            android:textColorHint="@android:color/white"
+            />
+        <Button
+            android:id="@+id/btn_pat_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:background="@drawable/btn_bg"
+            android:text="SignUp"
+            android:textAllCaps="false"
+            android:textColor="#081738"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
